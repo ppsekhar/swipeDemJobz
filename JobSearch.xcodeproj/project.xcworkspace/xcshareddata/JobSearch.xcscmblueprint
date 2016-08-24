@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "58223A7CA6D30FE44E6A47308D4C51B0D927B76B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "58223A7CA6D30FE44E6A47308D4C51B0D927B76B" : 0,
+    "5FA3FC38AA2426C6B4D765831317071D38AFC7E0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B130BD77-07EF-4A14-AF54-74D00CDA5E6A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "58223A7CA6D30FE44E6A47308D4C51B0D927B76B" : "swipeDemJobz\/",
+    "5FA3FC38AA2426C6B4D765831317071D38AFC7E0" : "TinderSimpleSwipeCards\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JobSearch",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JobSearch.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ppsekhar\/swipeDemJobz.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "58223A7CA6D30FE44E6A47308D4C51B0D927B76B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cwRichardKim\/TinderSimpleSwipeCards.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FA3FC38AA2426C6B4D765831317071D38AFC7E0"
+    }
+  ]
+}

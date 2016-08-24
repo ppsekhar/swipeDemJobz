@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D0141E2E65DF0A58D72A94 /* libPods-JobSearch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2EFAC4BA2E4B3E6CAD839D /* libPods-JobSearch.a */; };
+		870BDD4DEECFF3F72C914817 /* libPods-JobSearchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82107AB1A6CD29F322B455D8 /* libPods-JobSearchTests.a */; };
+		99B7AE99192D50D500C1B49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE98192D50D500C1B49C /* Foundation.framework */; };
+		99B7AE9B192D50D500C1B49C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */; };
+		99B7AE9D192D50D500C1B49C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE9C192D50D500C1B49C /* UIKit.framework */; };
+		99B7AEA3192D50D500C1B49C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99B7AEA1192D50D500C1B49C /* InfoPlist.strings */; };
+		99B7AEA5192D50D500C1B49C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AEA4192D50D500C1B49C /* main.m */; };
+		99B7AEA9192D50D500C1B49C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AEA8192D50D500C1B49C /* AppDelegate.m */; };
+		99B7AEAC192D50D500C1B49C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B7AEAA192D50D500C1B49C /* Main.storyboard */; };
+		99B7AEAF192D50D500C1B49C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AEAE192D50D500C1B49C /* ViewController.m */; };
+		99B7AEB1192D50D500C1B49C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B7AEB0192D50D500C1B49C /* Images.xcassets */; };
+		99B7AEB8192D50D500C1B49C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AEB7192D50D500C1B49C /* XCTest.framework */; };
+		99B7AEB9192D50D500C1B49C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE98192D50D500C1B49C /* Foundation.framework */; };
+		99B7AEBA192D50D500C1B49C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B7AE9C192D50D500C1B49C /* UIKit.framework */; };
+		99B7AEC2192D50D500C1B49C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99B7AEC0192D50D500C1B49C /* InfoPlist.strings */; };
+		99B7AEC4192D50D500C1B49C /* testing_swipingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AEC3192D50D500C1B49C /* testing_swipingTests.m */; };
+		99B7AECF192D513800C1B49C /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AECE192D513800C1B49C /* DraggableView.m */; };
+		99B7AED2192E914500C1B49C /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B7AED1192E914500C1B49C /* OverlayView.m */; };
+		99FDDE7919A992F200371454 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FDDE7819A992F200371454 /* DraggableViewBackground.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99B7AEBB192D50D500C1B49C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B7AE8D192D50D500C1B49C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99B7AE94192D50D500C1B49C;
+			remoteInfo = "testing swiping";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218846E1DADF7B730DD1862C /* Pods-JobSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobSearchTests/Pods-JobSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		82107AB1A6CD29F322B455D8 /* libPods-JobSearchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JobSearchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B7AE95192D50D500C1B49C /* JobSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B7AE98192D50D500C1B49C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99B7AE9C192D50D500C1B49C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99B7AEA0192D50D500C1B49C /* JobSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobSearch-Info.plist"; sourceTree = "<group>"; };
+		99B7AEA2192D50D500C1B49C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99B7AEA4192D50D500C1B49C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99B7AEA6192D50D500C1B49C /* JobSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JobSearch-Prefix.pch"; sourceTree = "<group>"; };
+		99B7AEA7192D50D500C1B49C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99B7AEA8192D50D500C1B49C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99B7AEAB192D50D500C1B49C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99B7AEAD192D50D500C1B49C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99B7AEAE192D50D500C1B49C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99B7AEB0192D50D500C1B49C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99B7AEB6192D50D500C1B49C /* JobSearch.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JobSearch.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99B7AEB7192D50D500C1B49C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		99B7AEBF192D50D500C1B49C /* JobSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JobSearchTests-Info.plist"; sourceTree = "<group>"; };
+		99B7AEC1192D50D500C1B49C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99B7AEC3192D50D500C1B49C /* testing_swipingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testing_swipingTests.m; sourceTree = "<group>"; };
+		99B7AECD192D513800C1B49C /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		99B7AECE192D513800C1B49C /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		99B7AED0192E914500C1B49C /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		99B7AED1192E914500C1B49C /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		99FDDE7719A992F200371454 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		99FDDE7819A992F200371454 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		E7E9D000429ECC206412E322 /* Pods-JobSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobSearchTests/Pods-JobSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		E853B1384D9FE05BCECD94FE /* Pods-JobSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JobSearch/Pods-JobSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		E9FE151480B9C1532EE75D6F /* Pods-JobSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JobSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-JobSearch/Pods-JobSearch.release.xcconfig"; sourceTree = "<group>"; };
+		FE2EFAC4BA2E4B3E6CAD839D /* libPods-JobSearch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JobSearch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99B7AE92192D50D500C1B49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B7AE9B192D50D500C1B49C /* CoreGraphics.framework in Frameworks */,
+				99B7AE9D192D50D500C1B49C /* UIKit.framework in Frameworks */,
+				99B7AE99192D50D500C1B49C /* Foundation.framework in Frameworks */,
+				08D0141E2E65DF0A58D72A94 /* libPods-JobSearch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B7AEB3192D50D500C1B49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B7AEB8192D50D500C1B49C /* XCTest.framework in Frameworks */,
+				99B7AEBA192D50D500C1B49C /* UIKit.framework in Frameworks */,
+				99B7AEB9192D50D500C1B49C /* Foundation.framework in Frameworks */,
+				870BDD4DEECFF3F72C914817 /* libPods-JobSearchTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B3EC2787F991A07FFE2783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E853B1384D9FE05BCECD94FE /* Pods-JobSearch.debug.xcconfig */,
+				E9FE151480B9C1532EE75D6F /* Pods-JobSearch.release.xcconfig */,
+				218846E1DADF7B730DD1862C /* Pods-JobSearchTests.debug.xcconfig */,
+				E7E9D000429ECC206412E322 /* Pods-JobSearchTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99B7AE8C192D50D500C1B49C = {
+			isa = PBXGroup;
+			children = (
+				99B7AE9E192D50D500C1B49C /* testing swiping */,
+				99B7AEBD192D50D500C1B49C /* testing swipingTests */,
+				99B7AE97192D50D500C1B49C /* Frameworks */,
+				99B7AE96192D50D500C1B49C /* Products */,
+				71B3EC2787F991A07FFE2783 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		99B7AE96192D50D500C1B49C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AE95192D50D500C1B49C /* JobSearch.app */,
+				99B7AEB6192D50D500C1B49C /* JobSearch.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99B7AE97192D50D500C1B49C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AE98192D50D500C1B49C /* Foundation.framework */,
+				99B7AE9A192D50D500C1B49C /* CoreGraphics.framework */,
+				99B7AE9C192D50D500C1B49C /* UIKit.framework */,
+				99B7AEB7192D50D500C1B49C /* XCTest.framework */,
+				FE2EFAC4BA2E4B3E6CAD839D /* libPods-JobSearch.a */,
+				82107AB1A6CD29F322B455D8 /* libPods-JobSearchTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99B7AE9E192D50D500C1B49C /* testing swiping */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AEA7192D50D500C1B49C /* AppDelegate.h */,
+				99B7AEA8192D50D500C1B49C /* AppDelegate.m */,
+				99B7AEAA192D50D500C1B49C /* Main.storyboard */,
+				99B7AEAD192D50D500C1B49C /* ViewController.h */,
+				99B7AEAE192D50D500C1B49C /* ViewController.m */,
+				99FDDE7719A992F200371454 /* DraggableViewBackground.h */,
+				99FDDE7819A992F200371454 /* DraggableViewBackground.m */,
+				99B7AECD192D513800C1B49C /* DraggableView.h */,
+				99B7AECE192D513800C1B49C /* DraggableView.m */,
+				99B7AED0192E914500C1B49C /* OverlayView.h */,
+				99B7AED1192E914500C1B49C /* OverlayView.m */,
+				99B7AEB0192D50D500C1B49C /* Images.xcassets */,
+				99B7AE9F192D50D500C1B49C /* Supporting Files */,
+			);
+			path = "testing swiping";
+			sourceTree = "<group>";
+		};
+		99B7AE9F192D50D500C1B49C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AEA0192D50D500C1B49C /* JobSearch-Info.plist */,
+				99B7AEA1192D50D500C1B49C /* InfoPlist.strings */,
+				99B7AEA4192D50D500C1B49C /* main.m */,
+				99B7AEA6192D50D500C1B49C /* JobSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99B7AEBD192D50D500C1B49C /* testing swipingTests */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AEC3192D50D500C1B49C /* testing_swipingTests.m */,
+				99B7AEBE192D50D500C1B49C /* Supporting Files */,
+			);
+			path = "testing swipingTests";
+			sourceTree = "<group>";
+		};
+		99B7AEBE192D50D500C1B49C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B7AEBF192D50D500C1B49C /* JobSearchTests-Info.plist */,
+				99B7AEC0192D50D500C1B49C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99B7AE94192D50D500C1B49C /* JobSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B7AEC7192D50D500C1B49C /* Build configuration list for PBXNativeTarget "JobSearch" */;
+			buildPhases = (
+				C3A86C0450D6536CFEE6D4E4 /* [CP] Check Pods Manifest.lock */,
+				99B7AE91192D50D500C1B49C /* Sources */,
+				99B7AE92192D50D500C1B49C /* Frameworks */,
+				99B7AE93192D50D500C1B49C /* Resources */,
+				960830E0598E613AF5404E0B /* [CP] Embed Pods Frameworks */,
+				79FAF492519DE058E2C92274 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobSearch;
+			productName = "testing swiping";
+			productReference = 99B7AE95192D50D500C1B49C /* JobSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99B7AEB5192D50D500C1B49C /* JobSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B7AECA192D50D500C1B49C /* Build configuration list for PBXNativeTarget "JobSearchTests" */;
+			buildPhases = (
+				0E5210C82B7C3DE7B65B1658 /* [CP] Check Pods Manifest.lock */,
+				99B7AEB2192D50D500C1B49C /* Sources */,
+				99B7AEB3192D50D500C1B49C /* Frameworks */,
+				99B7AEB4192D50D500C1B49C /* Resources */,
+				AB8517FBB66799B4CE77903C /* [CP] Embed Pods Frameworks */,
+				F803D3C99046C35636C5A55B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99B7AEBC192D50D500C1B49C /* PBXTargetDependency */,
+			);
+			name = JobSearchTests;
+			productName = "testing swipingTests";
+			productReference = 99B7AEB6192D50D500C1B49C /* JobSearch.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99B7AE8D192D50D500C1B49C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Richard Kim";
+				TargetAttributes = {
+					99B7AEB5192D50D500C1B49C = {
+						TestTargetID = 99B7AE94192D50D500C1B49C;
+					};
+				};
+			};
+			buildConfigurationList = 99B7AE90192D50D500C1B49C /* Build configuration list for PBXProject "JobSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99B7AE8C192D50D500C1B49C;
+			productRefGroup = 99B7AE96192D50D500C1B49C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99B7AE94192D50D500C1B49C /* JobSearch */,
+				99B7AEB5192D50D500C1B49C /* JobSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99B7AE93192D50D500C1B49C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B7AEB1192D50D500C1B49C /* Images.xcassets in Resources */,
+				99B7AEA3192D50D500C1B49C /* InfoPlist.strings in Resources */,
+				99B7AEAC192D50D500C1B49C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B7AEB4192D50D500C1B49C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B7AEC2192D50D500C1B49C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E5210C82B7C3DE7B65B1658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79FAF492519DE058E2C92274 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobSearch/Pods-JobSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960830E0598E613AF5404E0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobSearch/Pods-JobSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8517FBB66799B4CE77903C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobSearchTests/Pods-JobSearchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A86C0450D6536CFEE6D4E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F803D3C99046C35636C5A55B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JobSearchTests/Pods-JobSearchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99B7AE91192D50D500C1B49C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99FDDE7919A992F200371454 /* DraggableViewBackground.m in Sources */,
+				99B7AEAF192D50D500C1B49C /* ViewController.m in Sources */,
+				99B7AED2192E914500C1B49C /* OverlayView.m in Sources */,
+				99B7AEA9192D50D500C1B49C /* AppDelegate.m in Sources */,
+				99B7AECF192D513800C1B49C /* DraggableView.m in Sources */,
+				99B7AEA5192D50D500C1B49C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99B7AEB2192D50D500C1B49C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B7AEC4192D50D500C1B49C /* testing_swipingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99B7AEBC192D50D500C1B49C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99B7AE94192D50D500C1B49C /* JobSearch */;
+			targetProxy = 99B7AEBB192D50D500C1B49C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99B7AEA1192D50D500C1B49C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B7AEA2192D50D500C1B49C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99B7AEAA192D50D500C1B49C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B7AEAB192D50D500C1B49C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99B7AEC0192D50D500C1B49C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99B7AEC1192D50D500C1B49C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99B7AEC5192D50D500C1B49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99B7AEC6192D50D500C1B49C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99B7AEC8192D50D500C1B49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E853B1384D9FE05BCECD94FE /* Pods-JobSearch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEFINES_MODULE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testing swiping/JobSearch-Prefix.pch";
+				INFOPLIST_FILE = "testing swiping/JobSearch-Info.plist";
+				PRODUCT_NAME = JobSearch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99B7AEC9192D50D500C1B49C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FE151480B9C1532EE75D6F /* Pods-JobSearch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEFINES_MODULE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testing swiping/JobSearch-Prefix.pch";
+				INFOPLIST_FILE = "testing swiping/JobSearch-Info.plist";
+				PRODUCT_NAME = JobSearch;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		99B7AECB192D50D500C1B49C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218846E1DADF7B730DD1862C /* Pods-JobSearchTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing swiping.app/testing swiping";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testing swiping/JobSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "testing swipingTests/JobSearchTests-Info.plist";
+				PRODUCT_NAME = JobSearch;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		99B7AECC192D50D500C1B49C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E9D000429ECC206412E322 /* Pods-JobSearchTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testing swiping.app/testing swiping";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testing swiping/JobSearch-Prefix.pch";
+				INFOPLIST_FILE = "testing swipingTests/JobSearchTests-Info.plist";
+				PRODUCT_NAME = JobSearch;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99B7AE90192D50D500C1B49C /* Build configuration list for PBXProject "JobSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B7AEC5192D50D500C1B49C /* Debug */,
+				99B7AEC6192D50D500C1B49C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B7AEC7192D50D500C1B49C /* Build configuration list for PBXNativeTarget "JobSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B7AEC8192D50D500C1B49C /* Debug */,
+				99B7AEC9192D50D500C1B49C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B7AECA192D50D500C1B49C /* Build configuration list for PBXNativeTarget "JobSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99B7AECB192D50D500C1B49C /* Debug */,
+				99B7AECC192D50D500C1B49C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99B7AE8D192D50D500C1B49C /* Project object */;
+}
