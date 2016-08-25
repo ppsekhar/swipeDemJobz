@@ -95,8 +95,8 @@
 		CC2D001C1AF1D31400AF5C5F = {
 			isa = PBXGroup;
 			children = (
-				CC2D00271AF1D31400AF5C5F /* TinderSwipeCardsSwift */,
-				CC2D003D1AF1D31400AF5C5F /* TinderSwipeCardsSwiftTests */,
+				CC2D00271AF1D31400AF5C5F /* SwipeSearch */,
+				CC2D003D1AF1D31400AF5C5F /* SwipeSearchTests */,
 				CC2D00261AF1D31400AF5C5F /* Products */,
 				0CEE17F422EEFCFB35A205F4 /* Pods */,
 				A602BA228DE119F3D2F272DF /* Frameworks */,
@@ -112,7 +112,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC2D00271AF1D31400AF5C5F /* TinderSwipeCardsSwift */ = {
+		CC2D00271AF1D31400AF5C5F /* SwipeSearch */ = {
 			isa = PBXGroup;
 			children = (
 				CC2D002A1AF1D31400AF5C5F /* AppDelegate.swift */,
@@ -125,6 +125,7 @@
 				CC2D00331AF1D31400AF5C5F /* LaunchScreen.xib */,
 				CC2D00281AF1D31400AF5C5F /* Supporting Files */,
 			);
+			name = SwipeSearch;
 			path = TinderSwipeCardsSwift;
 			sourceTree = "<group>";
 		};
@@ -136,12 +137,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CC2D003D1AF1D31400AF5C5F /* TinderSwipeCardsSwiftTests */ = {
+		CC2D003D1AF1D31400AF5C5F /* SwipeSearchTests */ = {
 			isa = PBXGroup;
 			children = (
 				CC2D00401AF1D31400AF5C5F /* TinderSwipeCardsSwiftTests.swift */,
 				CC2D003E1AF1D31400AF5C5F /* Supporting Files */,
 			);
+			name = SwipeSearchTests;
 			path = TinderSwipeCardsSwiftTests;
 			sourceTree = "<group>";
 		};
